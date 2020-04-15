@@ -4,7 +4,6 @@ body {
     /* display: block; */
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
 }
 
 main {
@@ -13,8 +12,8 @@ main {
     text-align: center;
     display: flex;
     align-items: center;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     justify-content: center;
 }
 
@@ -31,17 +30,18 @@ section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    /* justify-content: space-around; */
     height: 324px;
     margin-top: 20px;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 article {
     width: 270px;
     margin: 10px;
     text-align: center;
-    padding: 10px;  
+    padding: 10px;
 }
 
 h4 {
