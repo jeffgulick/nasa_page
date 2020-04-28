@@ -90,3 +90,11 @@ button:hover {
     background-color: rgb(6, 26, 32);
     color: rgb(92, 89, 89);
   }
+
+label {
+    margin-right: 145pt;
+}
+
+form {
+    text-align: left;
+}

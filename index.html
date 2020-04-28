@@ -22,10 +22,13 @@
         </article>
         <article>
             <h4 class="contact_us">CONTACT US</h4>
-            <p class="name">Name:</p>
-            <input type="text">
-            <p class="message_txt">Message:</p>
-            <input class="message_input" type="text">
+            <!-- <p class="name">Name:</p> -->
+            <form action="">
+                <label class="txt" for="name">Name: </label><br>
+                <input type="text" id="name" placeholder="Last, First" required autofocus><br>
+                <label class="msg" for="message">Message: </label><br>
+                <textarea name="message" id="message" cols="36" rows="6" placeholder="Message" required></textarea><br>
+            </form>
             <button>Submit</button>
         </article>
     </section>
